@@ -1,0 +1,125 @@
+<style>
+.affi-wrap{max-width:860px;margin:0 auto;}
+.affi-hero{display:flex;gap:16px;align-items:center;background:#fff;border:1px solid #e9ecef;border-radius:12px;padding:16px;}
+.affi-hero img{width:140px;height:auto;border-radius:10px;object-fit:cover;border:1px solid #eee}
+.badge{display:inline-block;font-size:.82rem;padding:4px 8px;border-radius:999px;background:#f1f5f9;border:1px solid #e2e8f0;margin-right:6px}
+.lead{font-size:1.05rem;line-height:1.9}
+.note{background:#fff8e1;border:1px solid #ffe082;border-radius:10px;padding:12px;margin:16px 0}
+.h2{font-size:1.35rem;margin:28px 0 10px;font-weight:700}
+.h3{font-size:1.12rem;margin:22px 0 8px;font-weight:700}
+.kakomi{border:1px solid #e2e8f0;border-radius:10px;padding:14px;background:#fff}
+.flex{display:flex;gap:14px;flex-wrap:wrap}
+.point{flex:1 1 260px;border:1px dashed #d1d5db;border-radius:10px;padding:12px;background:#fafafa}
+.cta-btn{display:inline-block;padding:12px 18px;border-radius:999px;text-align:center;text-decoration:none;border:1px solid #0ea5e9;background:#e0f2fe}
+.cta-btn:hover{filter:brightness(0.98)}
+.cta-area{border:1px solid #e2e8f0;border-radius:12px;padding:16px;background:#f8fafc;margin:18px 0}
+.cta-caption{font-size:.9rem;color:#475569;margin-top:6px}
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem}
+.tbl th,.tbl td{border:1px solid #e5e7eb;padding:10px;vertical-align:top}
+.tbl th{background:#f8fafc;white-space:nowrap}
+.small{font-size:.88rem;color:#64748b}
+.toc{border:1px solid #e2e8f0;border-radius:10px;padding:12px;background:#ffffff}
+.toc a{display:block;padding:6px 0;text-decoration:none}
+.badge-new{background:#ecfeff;border:1px solid #a5f3fc}
+.hr{height:1px;background:#eceff1;border:0;margin:24px 0}
+.tips{display:grid;grid-template-columns:1fr;gap:10px}
+@media(min-width:680px){.tips{grid-template-columns:1fr 1fr 1fr}}
+.tip{border:1px solid #e2e8f0;border-radius:10px;padding:10px;background:#fcfcfc}
+.evi{border:1px solid #dbeafe;background:#eff6ff;border-radius:10px;padding:12px}
+</style>
+
+<article class="affi-wrap" itemscope itemtype="https://schema.org/BlogPosting">
+  <header>
+    <div class="badge">#美容 #体験レビュー</div>
+    <div class="badge badge-new">特集：{特集キーワード}</div>
+    <h1 itemprop="headline">{悩みキーワード}が気になる私が試した「{商品名}」体験談｜使い方・効果・損しない買い方まで</h1>
+    <p class="small">更新日：{更新日}｜執筆：みおり</p>
+  </header>
+
+  <section class="affi-hero">
+    <img src="{商品画像URL1}" alt="{商品名}の外箱と中身の写真（テクスチャが分かる角度）">
+    <div>
+      <p class="lead" itemprop="description">
+        正直、{悩みキーワード}は「何をしても続かない…」が本音でした。そこで口コミの多かった<strong>{商品名}</strong>を{継続日数}続けてみたところ、<u>朝のメイクのり</u>や<u>鏡を見る気持ち</u>に少し変化がありました。結論を先に言うと、{結論チラ見せ}。私の実体験と損しない選び方をまとめます。
+      </p>
+      <div class="cta-area">
+        <a class="cta-btn" href="{楽天_最安候補}" target="_blank" rel="nofollow noopener" data-track="cta_top_click">【先に価格を見る】{商品名}の最安値をチェック</a>
+        <div class="cta-caption">※在庫・ポイント倍率・クーポンは日々変動します。比較してからがおすすめです。</div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="toc" aria-label="記事の目次">
+    <strong>目次</strong>
+    <a href="#before">私の悩みとビフォー</a>
+    <a href="#action">実際にやったこと（使い方）</a>
+    <a href="#after">変化とリアルな感想</a>
+    <a href="#evidence">学術メモ（Evidence）</a>
+    <a href="#tips">豆知識ミニコラム ×3</a>
+    <a href="#product">【結論】{商品名}はこんな人におすすめ</a>
+    <a href="#compare">比較表</a>
+    <a href="#review">みんなの口コミ</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#buy">損しない買い方</a>
+  </nav>
+
+  <section id="before">
+    <h2 class="h2">私の悩みとビフォー：{悩みキーワード}で困っていたこと</h2>
+    <div class="kakomi">
+      <ul>
+        <li>朝：{ビフォー朝}</li>
+        <li>昼：{ビフォー昼}</li>
+        <li>夜：{ビフォー夜}</li>
+      </ul>
+      <p class="small">※感じ方には個人差があります。ここでは私のケースを書いています。</p>
+    </div>
+  </section>
+
+  <section id="action">
+    <h2 class="h2">実際にやったこと：{商品名}の使い方と続け方</h2>
+    <div class="flex">
+      <div class="point"><h3 class="h3">1) 使用タイミング</h3><p>{使用タイミング}に{継続日数}継続。</p></div>
+      <div class="point"><h3 class="h3">2) 量と組み合わせ</h3><p>{用量}。{併用スキンケア}はそのまま。</p></div>
+      <div class="point"><h3 class="h3">3) 失敗回避</h3><p>{失敗回避}</p></div>
+    </div>
+  </section>
+
+  <section id="after">
+    <h2 class="h2">変化とリアルな感想（After）</h2>
+    <div class="kakomi">
+      <p><strong>{変化_日}日目：</strong>{感じた変化_日}</p>
+      <p><strong>{変化_週}週間後：</strong>{感じた変化_週}</p>
+      <p><strong>{変化_月}ヶ月後：</strong>{感じた変化_月}</p>
+    </div>
+  </section>
+
+  <section id="evidence">
+    <h2 class="h2">学術メモ（Evidence）</h2>
+    <div class="evi">
+      <p>{学術メモ本文}</p>
+      <p class="small">※数値の受け止め方には幅があります。自分の体調に合わせて無理なく試してください。</p>
+    </div>
+  </section>
+
+  <section id="tips">
+    <h2 class="h2">豆知識ミニコラム（小ネタ×3）</h2>
+    <div class="tips">
+      <div class="tip">{豆知識1}</div>
+      <div class="tip">{豆知識2}</div>
+      <div class="tip">{豆知識3}</div>
+    </div>
+  </section>
+
+  <section id="product">
+    <h2 class="h2">【結論】{商品名}はこんな人におすすめ</h2>
+    <ul>
+      <li>{悩みキーワード}をやさしくケアしたい</li>
+      <li>まずは<strong>{推奨期間}</strong>で様子を見たい</li>
+      <li>成分：{主成分} に魅力を感じる</li>
+    </ul>
+    <div class="cta-area">
+      <a class="cta-btn" href="{楽天_最安候補}" target="_blank" rel="nofollow noopener" data-track="cta_product_click">【最安候補を見る】ポイント/クーポン適用後の価格を確認</a>
+      <div class="cta-caption">実質価格はポイント倍率で変わります。比較してからがおすすめです。</div>
+    </div>
+  </section>
+</article>
