@@ -1,0 +1,6 @@
+git init
+git branch -M main
+git add .
+git commit -m "first commit: Miori Blog Auto Update v2"
+git remote add origin https://github.com/あなたのユーザー名/miori-blog-auto-v2.git
+git push -u origin main
